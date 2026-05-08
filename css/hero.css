@@ -1,0 +1,31 @@
+.hero {
+    background: var(--navy-blue);
+}
+
+.title-hero {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero-button {
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 24px; */
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white);
+    background: var(--iris);
+    cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background: #404bbf;
+    color: var(--white);
+}
