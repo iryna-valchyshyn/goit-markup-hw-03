@@ -6,8 +6,6 @@
     flex-direction: column;
     gap: 0px;
     padding: 100px 0px;
-    width: 1440px;
-    height: 312px;
 }
 
 .footer .container {
@@ -17,8 +15,6 @@
     flex-direction: row;
     gap: 0px;
     padding: 0px 15px;
-    width: 1158px;
-    height: 112px;
     max-width: 1158px;
 }
 
@@ -28,8 +24,6 @@
     justify-content: flex-start;
     flex-direction: column;
     gap: 16px;
-    width: 264px;
-    height: 112px;
     max-width: 264px;
 }
 

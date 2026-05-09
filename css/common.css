@@ -27,6 +27,8 @@ body {
 
 ul{
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 .sr-only {
@@ -41,3 +43,20 @@ ul{
     clip-path: inset(100%);
     margin: -1px;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 1158px;
+    max-width: 1158px;
+}
+
+ h1,
+ h2,
+ h3, 
+ p {
+    margin: 0;
+ }
+
