@@ -1,5 +1,26 @@
 .header {
     background: var(--white);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px;
+    border-bottom: 1px solid var(--cornflower);
+    width: 1440px;
+    height: 72px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0;
+    padding: 0 15px;
+    width: 1158px;
+    height: 72px;
+    max-width: 1158px;
+    margin: auto;
 }
 
 .logo {
@@ -7,12 +28,19 @@
     font-weight: 700;
     font-size: 18px;
 
-    /* line-height: 24px; */
+    /*line-height: 24px;*/ 
     line-height: 1.33333;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--navy-blue);
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    width: 115px;
+    height: 24px;
 }
 
 .logo-akcent {
@@ -21,6 +49,13 @@
 
 .logo-navigation {
     list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 253px;
+    height: 72px;
 }
 
 .logo-nav {
@@ -29,10 +64,18 @@
     font-weight: 500;
     font-size: 16px;
 
-    /* line-height: 24px; */
+    /*line-height: 24px;*/
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0px;
+    padding: 24px 0px;
+    width: 65px;
+    height: 72px;
 
 }
 .logo-nav:hover,
@@ -42,6 +85,13 @@
 
 .logo-address {
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    width: 344px;
+    height: 72px;
 }
 
 .address {
@@ -50,11 +100,20 @@
     font-weight: 400;
     font-size: 16px;
 
-    /* line-height: 24px; */
+    /*line-height: 24px;*/
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
     font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 0px;
+    padding: 24px 0px;
+    width: 153px;
+    height: 72px;
+
 }
 
 .address:hover,
