@@ -33,6 +33,7 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 0;
+    margin: 76px;
 }
 
 .logo-akcent {
@@ -73,7 +74,7 @@
 }
 
 .logo-address {
-    margin-left: 15px;
+    margin-left: 250px;
     list-style-type: none;
     display: flex;
     align-items: center;
