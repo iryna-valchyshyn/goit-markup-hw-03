@@ -47,10 +47,12 @@ ul{
 .container {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     flex-direction: column;
     width: 1158px;
     max-width: 1158px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: 0 15px;
 }
 
  h1,

@@ -10,14 +10,11 @@
 .header .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin: auto;
     flex-direction: row;
     gap: 0;
     padding: 0 15px;
-    width: 1158px;
-    height: 72px;
     max-width: 1158px;
-    margin: auto;
 }
 
 .logo {
@@ -35,7 +32,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    gap: 0px;
+    gap: 0;
 }
 
 .logo-akcent {
@@ -49,6 +46,7 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    margin: auto;
 }
 
 .logo-nav {
@@ -75,7 +73,7 @@
 }
 
 .logo-address {
-    margin-left: auto
+    margin-left: 15px;
     list-style-type: none;
     display: flex;
     align-items: center;
