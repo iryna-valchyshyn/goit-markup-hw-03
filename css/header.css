@@ -33,7 +33,7 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 0;
-    margin: 76px;
+    margin-right: 76px;
 }
 
 .logo-akcent {
@@ -47,7 +47,7 @@
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-    margin: auto;
+  
 }
 
 .logo-nav {
@@ -74,13 +74,12 @@
 }
 
 .logo-address {
-    margin-left: 250px;
-    list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    padding-right: 15px;
 }
 
 .address {

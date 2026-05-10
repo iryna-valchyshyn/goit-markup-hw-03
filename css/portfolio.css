@@ -88,3 +88,6 @@
     color: var(--slate);
 }
 
+img {
+    display: block;
+}
